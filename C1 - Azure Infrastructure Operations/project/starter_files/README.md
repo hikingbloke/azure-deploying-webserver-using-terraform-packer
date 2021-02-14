@@ -113,5 +113,8 @@ For this project, We will use Packer to create a server image, and Terraform to 
 - VM Image reference path in Azure
 ![screenshot - image reference](./output_images/packer_image_reference.png?raw=true)
 
+- Terraform Soltuion Plan file reference
+https://github.com/hikingbloke/azure-deploying-webserver-using-terraform-packer/blob/master/C1%20-%20Azure%20Infrastructure%20Operations/project/starter_files/solution.plan
+
 - Resources created using Terraform
 ![screenshot - resource using terraform](./output_images/resources-created-using-terraform.png?raw=true)
