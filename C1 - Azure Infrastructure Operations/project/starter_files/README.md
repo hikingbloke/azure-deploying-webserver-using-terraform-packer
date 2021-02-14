@@ -102,7 +102,7 @@ For this project, We will use Packer to create a server image, and Terraform to 
 ### Output
 
 - Azure Policy for Tag creation
-![screenshot - Azure policy Tag creation](./output_images/tag-policy-screenshot?raw=true)
+![screenshot - Azure policy Tag creation](./output_images/tag-policy-screenshot.png?raw=true)
 
 - Command line output after executing Packer to create an image
 ![screenshot - packer command line](./output_images/packer_cmd_output.png?raw=true)
