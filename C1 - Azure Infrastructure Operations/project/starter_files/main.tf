@@ -140,6 +140,8 @@ resource "azurerm_linux_virtual_machine" "main" {
     storage_account_type = "Standard_LRS"
     caching              = "ReadWrite"
   }
+  
+  tags = var.tags
 }
 
 resource "azurerm_managed_disk" "data" {

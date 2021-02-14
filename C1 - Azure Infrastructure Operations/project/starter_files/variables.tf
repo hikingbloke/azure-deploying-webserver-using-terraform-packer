@@ -15,9 +15,18 @@ variable "password" {
 
 }
 
+variable "tags" {
+  type        = map(string)
+  description = "Tags for virtual machine"
+
+  default = {
+    deptp = "deptp-webapp"
+  }
+}
+
 variable "num_of_virtual_machines" {
   description = "Enter number of virtual machines"
-  default     = 1
+  default     = 2
 }
 
 variable "location" {
